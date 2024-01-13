@@ -1,0 +1,109 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    margin: 1rem;
+}
+
+@media (max-width: 960px) {
+    #title {
+        font-size: 1.5rem;
+    }
+    .quotation p {
+        font-size: 1rem;
+    }
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    margin: 1rem 0 0 0;
+    background-color: gold;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 1rem auto;
+    background-color: whitesmoke;
+}
+
+#img-div {
+    margin: 1rem auto auto;
+    padding: 2rem;
+    border: 2.4rem solid black;
+    background-color:gold;
+}
+
+.quotation {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.quotation:last-of-type {
+    text-align: right;
+}
+
+figcaption span {
+    display: block;
+    text-align:center;
+    font-size: small;
+    font-style: italic;
+    font-weight:bold;
+}
+
+figcaption:first-of-type {
+    margin-top: 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    background-color: gold;
+}
+
+#tribute-info ul {
+    list-style: upper-roman;
+    margin: 0;
+}
+
+#tribute-info ul li {
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.gallery-images {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    min-width: 300px;
+    max-width: 900px;
+    margin: 1rem 0;
+}
+
+.gallery-images img {
+    width: 100%;
+    max-width: 250px;
+    height:2oopx;
+    object-fit:cover;
+}
+
+#references p {
+    margin: 0.7rem;
+}
+
+#references p:first-of-type {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
